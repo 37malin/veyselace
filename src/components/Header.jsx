@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from "../images/logo.png";
 
 const Header = () => {
   return (
@@ -7,7 +8,9 @@ const Header = () => {
             <div className="page-width">
                 <div className="header__menulists">
                     <div className="__logo">
-                        <h1>logo</h1>
+                        <h1>
+                            <img src={ logo } alt="Veysel's Private Lesson" />
+                        </h1>
                     </div>
                     <nav className="__menu">
                         <ul className="menulist-wrap">
@@ -18,7 +21,7 @@ const Header = () => {
                         </ul>
                     </nav>
                     <div className="__cta">
-                      <a href="#" >contact</a>
+                      <a href="#contact" >contact</a>
                     </div>
                 </div>
             </div>

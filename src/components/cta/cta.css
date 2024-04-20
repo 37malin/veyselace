@@ -1,0 +1,46 @@
+.cta-contents {
+    padding: 5rem;
+    background-color: var(--theme-color);
+  }
+  .cta-contents .cta_wrap {
+    width: 50%;
+    margin: auto;
+  }
+  @media screen and (max-width: 749px) {
+    .cta-contents .cta_wrap {
+      width: 100%;
+    }
+  }
+  .cta-contents .cta_wrap a {
+    font-size: 3rem;
+    padding: 1.3rem 1rem;
+  }
+  .poyoyon {
+    animation: poyoyon 2.5s infinite;
+  }
+  @keyframes poyoyon {
+    0%, 40% {
+      transform: skew(0deg, 0deg);
+    }
+    5% {
+      transform: skew(0.3deg, 0.3deg);
+    }
+    10% {
+      transform: skew(-0.6deg, -0.6deg);
+    }
+    15% {
+      transform: skew(0.3deg, 0.3deg);
+    }
+    20% {
+      transform: skew(-0.6deg, -0.6deg);
+    }
+    25% {
+      transform: skew(0.3deg, 0.3deg);
+    }
+    30% {
+      transform: skew(-0.6deg, -0.6deg);
+    }
+    35% {
+      transform: skew(0.3deg, 0.3deg);
+    }
+  }

@@ -1,0 +1,13 @@
+.gallery h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .gallery .gallery_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "label0 label1 label1 label2" "label0 label1 label1 label3" "label4 label5 label6 label6";
+    gap: 0px;
+    height: 100%;
+  }

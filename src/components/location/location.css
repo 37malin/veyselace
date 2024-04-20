@@ -1,0 +1,65 @@
+.location {
+    background-color:#0c3c4a;
+}
+.location ._contents {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  @media screen and (max-width: 749px) {
+    .location ._contents {
+      width: 90%;
+      flex-wrap: wrap;
+    }
+  }
+  .location ._txtfeild {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  @media screen and (max-width: 749px) {
+    .location ._txtfeild {
+      width: 100%;
+    }
+  }
+  .location ._txtfeild h2, .location ._txtfeild h3, .location ._txtfeild h4, .location ._txtfeild p {
+    margin: 0;
+    line-height: 1.4;
+    color:#ffffff;
+  }
+  .location ._txtfeild h2, .location ._txtfeild h3, .location ._txtfeild h4 {
+    font-weight: bold;
+  }
+  .location ._txtfeild h4 {
+    font-size: 2rem;
+  }
+  .location ._txtfeild h2 {
+    font-size: 6rem;
+    line-height: 1;
+  }
+  .location ._txtfeild h3 {
+    font-size: 4rem;
+  }
+  .location ._txtfeild p {
+    font-size: 2rem;
+  }
+  .location ._mapfeild {
+    width: 50%;
+  }
+  @media screen and (max-width: 749px) {
+    .location ._mapfeild {
+      width: 100%;
+    }
+  }
+  .location .iframe-aspect {
+    aspect-ratio: 16/9;
+    max-width: 600px;
+  }
+  .location .iframe-aspect iframe {
+    width: 100%;
+    height: 100%;
+  }

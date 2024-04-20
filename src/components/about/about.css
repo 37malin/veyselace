@@ -1,0 +1,131 @@
+.body04 {
+    position: relative;
+  }
+  .body04 ._contents {
+    padding-top: 5rem;
+  }
+  .body04 ._content-flex {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  @media screen and (max-width: 749px) {
+    .body04 ._content-flex {
+      flex-direction: column;
+    }
+  }
+  .body04 ._content-flex h2 {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .body04 ._content-flex p {
+    line-height: 1.3;
+  }
+  .body04 ._txtfeild-inner {
+    width: 50%;
+  }
+  @media screen and (max-width: 749px) {
+    .body04 ._txtfeild-inner {
+      width: 100%;
+    }
+  }
+  .body04 ._skill-wrap {
+    width: 70%;
+    margin: -6rem 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 749px) {
+    .body04 ._skill-wrap {
+      width: 100%;
+    }
+  }
+  .body04 ._skill-wrap ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .body04 ._skills {
+    margin-top: 10rem;
+    padding: 1rem;
+  }
+  .body04 .img_wrap {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 5px solid var(--cta-bg-color);
+    padding: 0.2rem;
+  }
+  @media screen and (max-width: 749px) {
+    .body04 .img_wrap {
+      width: 100%;
+      height: auto;
+      order: 2;
+    }
+  }
+  .body04 img {
+    border-radius: 50%;
+  }
+  .body04 .chart_heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 749px) {
+    .body04 .chart_heading {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      line-height: 1;
+      letter-spacing: -10px;
+    }
+  }
+  .body04 .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 10px;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 1.3;
+  }
+  .body04 .chart span {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .body04 .chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .body04 .socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+  }
+  .body04 .socialmedia li {
+    width: 3rem;
+  }
+  .body04 .socialmedia li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .body04 .socialmedia li svg {
+    width: 100%;
+    height: 100%;
+  }

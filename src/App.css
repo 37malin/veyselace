@@ -16,6 +16,7 @@ header {
   width: 100%;
   z-index: 100;
   border-bottom: 1px solid #fff;
+  background-color: var(--theme-color);
 }
 
 .header__menulists {
@@ -37,6 +38,7 @@ header {
 .header__menulists .__cta {
   grid-area: 1/6/2/7;
 }
+
 .header__menulists h1 {
   margin: 0;
 }
@@ -48,6 +50,8 @@ header {
   align-items: center;
   gap: 2rem;
   margin: 0;
+  font-size: 1.6rem;
+  color: #fff;
 }
 @media screen and (max-width: 749px) {
   .header__menulists .menulist-wrap {
@@ -63,5 +67,5 @@ header {
   text-align: center;
   font-weight: bold;
   padding: 0.5rem 1rem;
-  border-radius: 30px;
+  border-radius: 3rem;
 }

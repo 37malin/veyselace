@@ -1,0 +1,19 @@
+.steps {
+    background-color:var(--theme-color);
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.steps h2, .steps h4 {
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+  }
+  .steps h4 {
+    font-size: 2rem;
+  }
+  .steps h2 {
+    font-size: 6rem;
+    line-height: 1;
+  }
