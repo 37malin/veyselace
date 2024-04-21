@@ -10,6 +10,7 @@ import CtaBtn3 from './cta/cta3';
 import Location from './location/location';
 import Steps from './steps/steps';
 import Gallery from './gallery/gallery';
+import Footer from './footer/Footer';
 
 const HomePage = () => {
     return (
@@ -25,6 +26,7 @@ const HomePage = () => {
           <Location/>
           <Steps/>
           <Gallery/>
+          <Footer/>
         </div>
     );
 }

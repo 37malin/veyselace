@@ -1,0 +1,10 @@
+.original-footer{
+    background-color:var(--theme-color);
+    padding: 2rem;
+}
+
+.original-footer p {
+    text-align: center;
+    color:#ffffff;
+    font-size: 1rem;
+  }

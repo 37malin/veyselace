@@ -1,11 +1,12 @@
 import React from 'react'
+import './footer.css'
 
 const Footer = () => {
   return (
     <div>
-        <footer class="original-footer" style="background-color:#0c3c4a;">
+        <footer class="original-footer">
             <div class="page-width">
-             <p style="color:#ffffff;"><small>© 2024, Veysel's Private Lessons, produced by Autoskyrocket</small></p>
+             <p>© 2024, Veysel's Private Lessons</p>
             </div>
         </footer>
     </div>
