@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/veyselace/static/css/main.42b00c79.css",
-    "main.js": "/veyselace/static/js/main.8653365a.js",
-    "static/media/logo.svg": "/veyselace/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/veyselace/static/css/main.89d87345.css",
+    "main.js": "/veyselace/static/js/main.a9d930e0.js",
+    "static/media/gallery7.jpg": "/veyselace/static/media/gallery7.0669b6fb25ad997fa8e4.jpg",
+    "static/media/about.svg": "/veyselace/static/media/about.fb99aa6857c20c8ce6112a51806d9446.svg",
+    "static/media/gallery5.jpg": "/veyselace/static/media/gallery5.344d74314c7f12759b52.jpg",
+    "static/media/body05.jpg": "/veyselace/static/media/body05.f58879406e9c9ee0f8df.jpg",
+    "static/media/gallery6.jpg": "/veyselace/static/media/gallery6.d65769928a4bb27a1c58.jpg",
+    "static/media/body01.png": "/veyselace/static/media/body01.179dd4255b8a6bf6ce41.png",
+    "static/media/gallery3.jpg": "/veyselace/static/media/gallery3.cadc2ff2e05bebd25d69.jpg",
+    "static/media/gallery2.jpg": "/veyselace/static/media/gallery2.03927695aa848c4b5f37.jpg",
+    "static/media/mv.jpg": "/veyselace/static/media/mv.35f0be01ec36f18a7d38.jpg",
+    "static/media/gallery1.jpg": "/veyselace/static/media/gallery1.960460cfdf0cbf964043.jpg",
+    "static/media/steps.png": "/veyselace/static/media/steps.18a79d622d7015b87f92.png",
+    "static/media/gallery4.jpg": "/veyselace/static/media/gallery4.4259166b0abe268fc3a4.jpg",
+    "static/media/logo.png": "/veyselace/static/media/logo.b00483807bbea930f949.png",
+    "static/media/body01-2.svg": "/veyselace/static/media/body01-2.371be257652855398b7c908e4ffa1f3a.svg",
+    "static/media/body01-1.svg": "/veyselace/static/media/body01-1.5567d978de928e39edba4eea5209b062.svg",
     "index.html": "/veyselace/index.html",
-    "main.42b00c79.css.map": "/veyselace/static/css/main.42b00c79.css.map",
-    "main.8653365a.js.map": "/veyselace/static/js/main.8653365a.js.map"
+    "main.89d87345.css.map": "/veyselace/static/css/main.89d87345.css.map",
+    "main.a9d930e0.js.map": "/veyselace/static/js/main.a9d930e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b00c79.css",
-    "static/js/main.8653365a.js"
+    "static/css/main.89d87345.css",
+    "static/js/main.a9d930e0.js"
   ]
 }
