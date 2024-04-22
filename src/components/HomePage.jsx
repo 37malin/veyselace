@@ -11,6 +11,7 @@ import Location from './location/location';
 import Steps from './steps/steps';
 import Gallery from './gallery/gallery';
 import Footer from './footer/Footer';
+import Body03 from './body03/Body03';
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
           <Body01 />
           <CtaBtn />
           <Body02/>
+          <Body03/>
           <CtaBtn2/>
           <About />
           <Body05/>
