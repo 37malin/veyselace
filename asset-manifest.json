@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/veyselace/static/css/main.ae7a637e.css",
+    "main.js": "/veyselace/static/js/main.45fb2688.js",
+    "static/media/body03-3.png": "/veyselace/static/media/body03-3.28dea8c7a975ca62a19d.png",
+    "static/media/gallery7.jpg": "/veyselace/static/media/gallery7.0669b6fb25ad997fa8e4.jpg",
+    "static/media/about.svg": "/veyselace/static/media/about.fb99aa6857c20c8ce6112a51806d9446.svg",
+    "static/media/body03-1.png": "/veyselace/static/media/body03-1.3aefc3cea43fede05c3e.png",
+    "static/media/body03-6.png": "/veyselace/static/media/body03-6.cc3fa5acc4b094f754f8.png",
+    "static/media/body03-4.png": "/veyselace/static/media/body03-4.5498d319391b61c67d9d.png",
+    "static/media/body03-5.png": "/veyselace/static/media/body03-5.3ab9004418d37748547f.png",
+    "static/media/body03-2.jpg": "/veyselace/static/media/body03-2.bd9fd473a3d210e3f101.jpg",
+    "static/media/gallery5.jpg": "/veyselace/static/media/gallery5.344d74314c7f12759b52.jpg",
+    "static/media/body05.jpg": "/veyselace/static/media/body05.f58879406e9c9ee0f8df.jpg",
+    "static/media/gallery6.jpg": "/veyselace/static/media/gallery6.d65769928a4bb27a1c58.jpg",
+    "static/media/location.png": "/veyselace/static/media/location.c53e12e9832c724d268b.png",
+    "static/media/body01.png": "/veyselace/static/media/body01.179dd4255b8a6bf6ce41.png",
+    "static/media/gallery3.jpg": "/veyselace/static/media/gallery3.cadc2ff2e05bebd25d69.jpg",
+    "static/media/gallery2.jpg": "/veyselace/static/media/gallery2.03927695aa848c4b5f37.jpg",
+    "static/media/mv.jpg": "/veyselace/static/media/mv.35f0be01ec36f18a7d38.jpg",
+    "static/media/gallery1.jpg": "/veyselace/static/media/gallery1.960460cfdf0cbf964043.jpg",
+    "static/media/steps.png": "/veyselace/static/media/steps.18a79d622d7015b87f92.png",
+    "static/media/gallery4.jpg": "/veyselace/static/media/gallery4.4259166b0abe268fc3a4.jpg",
+    "static/media/logo.png": "/veyselace/static/media/logo.b00483807bbea930f949.png",
+    "static/media/body01-2.svg": "/veyselace/static/media/body01-2.371be257652855398b7c908e4ffa1f3a.svg",
+    "static/media/body01-1.svg": "/veyselace/static/media/body01-1.5567d978de928e39edba4eea5209b062.svg",
+    "index.html": "/veyselace/index.html",
+    "main.ae7a637e.css.map": "/veyselace/static/css/main.ae7a637e.css.map",
+    "main.45fb2688.js.map": "/veyselace/static/js/main.45fb2688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae7a637e.css",
+    "static/js/main.45fb2688.js"
+  ]
+}
