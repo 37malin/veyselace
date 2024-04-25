@@ -1,6 +1,6 @@
 .steps {
     background-color:var(--theme-color);
-    padding-top: 36px;
+    padding-top: 10rem;
     padding-bottom: 36px;
 }
 .steps h2, .steps h4 {
