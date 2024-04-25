@@ -3,10 +3,8 @@ import MainVisual from './mv/MainVisual';
 import Body01 from './body01/body01';
 import CtaBtn from './cta/cta';
 import Body02 from './body02/body02';
-import CtaBtn2 from './cta/cta2';
 import About from './about/about';
 import Body05 from './body05/body05';
-import CtaBtn3 from './cta/cta3';
 import Location from './location/location';
 import Steps from './steps/steps';
 import Gallery from './gallery/gallery';
@@ -21,11 +19,12 @@ const HomePage = () => {
           <CtaBtn />
           <Body02/>
           <Body03/>
-          <CtaBtn2/>
+          <CtaBtn text="Ask Price?"/>
           <About />
-          <Body05/>
-          <CtaBtn3/>
+          <CtaBtn text="Ask Schedule?"/>
           <Location/>
+          <Body05/>
+          <CtaBtn text="Ask Location?"/>
           <Steps/>
           <Gallery/>
           <Footer/>

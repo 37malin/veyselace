@@ -10,11 +10,7 @@
     background-color:#ffffff;
     border-top: 5px solid var(--cta-bg-color);
   }
-  @media screen and (max-width: 749px) {
-    .body05 ._contents {
-      width: 90%;
-    }
-  }
+  
   .body05 h4, .body05 h2 {
     text-align: center;
     font-weight: bold;

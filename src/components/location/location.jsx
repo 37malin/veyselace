@@ -1,5 +1,6 @@
 import React from 'react'
 import './location.css'
+import Image from '../../images/location/location.png';
 
 const Location = () => {
   return (
@@ -24,8 +25,8 @@ const Location = () => {
                 </span>test</p>
             </div>
             <div className="_mapfeild">
-            <div className="iframe-aspect">
-                test
+            <div className="_imagefeild">
+              <img src={ Image } alt="veysel private tennis lessons" />
             </div>
             </div>
         </div>

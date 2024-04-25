@@ -19,6 +19,7 @@ header {
   background-color: var(--theme-color);
 }
 
+@media screen and (min-width: 750px) {
 .header__menulists {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -37,6 +38,7 @@ header {
 }
 .header__menulists .__cta {
   grid-area: 1/6/2/7;
+}
 }
 
 .header__menulists h1 {

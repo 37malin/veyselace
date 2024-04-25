@@ -47,6 +47,9 @@
   .location ._txtfeild p {
     font-size: 2rem;
   }
+  .location ._txtfeild p span {
+    margin-right: 1rem;
+  }
   .location ._mapfeild {
     width: 50%;
   }
