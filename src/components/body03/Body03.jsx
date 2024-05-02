@@ -7,6 +7,8 @@ import image3 from '../../images/body03/body03-3.png';
 import image4 from '../../images/body03/body03-4.png';
 import image5 from '../../images/body03/body03-5.png';
 import image6 from '../../images/body03/body03-6.png';
+import { Element } from 'react-scroll';
+
 
 const Body03 = () => {
     let details = [
@@ -50,32 +52,9 @@ const Body03 = () => {
 
     const listRefs = useFadeIn(details);
 
-    // const listRefs = useRef(details.map(() => React.createRef()));
-
-    // useEffect(() => {
-    //     const observer = new IntersectionObserver(entries => {
-    //         entries.forEach(entry => {
-    //             if (entry.isIntersecting) {
-    //                 entry.target.classList.add('fadeIn');  // フェードインクラスを追加
-    //                 observer.unobserve(entry.target);  // 監視を解除
-    //             }
-    //         });
-    //     }, { threshold: 0.3 });  // 要素が30%見えたらトリガー
-    
-    //     const currentRefs = listRefs.current;
-    //     currentRefs.forEach(ref => {
-    //         if (ref.current) {
-    //             observer.observe(ref.current);
-    //         }
-    //     });
-    
-    //     return () => {
-    //         observer.disconnect();  // クリーンアップ時にオブザーバーを切断
-    //     };
-    // }, []);
-    
 
     return (
+        <Element name="program">
             <div className='body03'>
                 <div className='_inner'>
                     <ul className='list_wrap'>
@@ -103,6 +82,7 @@ const Body03 = () => {
                     </ul>
                 </div>
             </div>
+        </Element>
     )
 }
 

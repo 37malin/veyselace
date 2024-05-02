@@ -1,9 +1,11 @@
 import React from 'react'
 import './body02.css'
+import { Element } from 'react-scroll';
 
 const Body02 = () => {
   return (
-    <div id="private" className="body02">
+    <Element name="private">
+    <div className="body02">
         <div className="_contents _flex">
             <div className="_txtfeild _headingfeild">
                 <h4><span className="highlight">Why do I need</span></h4>
@@ -14,6 +16,7 @@ const Body02 = () => {
             </div>
         </div>
     </div>
+    </Element>
   )
 }
 

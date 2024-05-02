@@ -22,7 +22,7 @@ const Location = () => {
                 </clipPath>
                 </defs>
                 </svg>
-                </span>test</p>
+                </span>The place will be setted near you within 10km from CBD, please check your location.</p>
             </div>
             <div className="_mapfeild">
             <div className="_imagefeild">

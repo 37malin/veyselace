@@ -1,10 +1,12 @@
 import React from 'react'
 import mainImage from '../../images/about/about.svg'
 import './about.css'
+import { Element } from 'react-scroll';
 
 const About = () => {
   return (
-    <div id="coach" className="body04 template--22485124382998__body4">
+    <Element name="coach">
+    <div className="body04 template--22485124382998__body4">
         <div className="_contents">
             <div className="_content-flex">
                 
@@ -30,6 +32,7 @@ const About = () => {
         
         
     </div>
+    </Element>
   )
 }
 

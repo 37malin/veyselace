@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from "../images/logo.png";
+import { Link } from 'react-scroll';
 
 const Header = () => {
+   
   return (
     <header>
         <div className='original__header'>
@@ -14,15 +16,12 @@ const Header = () => {
                     </div>
                     <nav className="__menu">
                         <ul className="menulist-wrap">
-                            <li>home</li>
-                            <li>price</li>
-                            <li>couch</li>
-                            <li>program</li>
+                            <li><Link to="private" smooth={true} duration={200}>Whay Private?</Link></li>
+                            <li><Link to="program" smooth={true} duration={200}>PROGRAM</Link></li>
+                            <li><Link to="coach" smooth={true} duration={200}>COUCH</Link></li>
                         </ul>
                     </nav>
-                    <div className="__cta">
-                      <a href="#contact" >contact</a>
-                    </div>
+                    <Link to="contact" className='__cta' smooth={true} duration={200}>CONTACT</Link>
                 </div>
             </div>
         </div>
