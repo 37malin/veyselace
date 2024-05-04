@@ -1,14 +1,81 @@
-.custom-form .background-image {
+.background-image {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
     height: auto;
     width: 100%;
+    background-image:url("../../images/bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .custom-form h2 {
+
+  .contact_contents {
+    width: 80%;
+    margin: auto;
     text-align: center;
+  }
+
+  @media screen and (max-width: 749px) {
+    .contact_contents {
+      width: 90%;
+    }
+  }
+
+  .contact_contents h2 {
     font-size: 5rem;
-    font-weight: bold;
   }
   
-  
+  .btnfeild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  @media screen and (max-width: 749px) {
+    .btnfeild {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .svg-wrap {
+    line-height: 0;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .btn_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btnfeild a {
+    display: block;
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    border: 3px solid #fff;
+  }
+
+  @media screen and (max-width: 749px) {
+    .btnfeild a {
+      font-size: 2rem;
+    }
+  }
+
+  .send_email {
+    background: #0f4a83;
+  }
+  .send_whatsapp {
+    background: #298252ee;
+  }
+
+  .contact_contents .btn-wrap {
+    width: 100%;
+  }
