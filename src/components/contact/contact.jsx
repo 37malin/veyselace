@@ -14,7 +14,7 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <div class="btnfeild">
               <div class="btn-wrap">
-                <a href={`mailto:${email}`} className='send_email svg-wrap'><div class="btn_inner"><SiMinutemailer /><span>ozriliveysel@gmail.com</span></div></a>
+                <a href={`mailto:${email}`} className='send_email svg-wrap'><div class="btn_inner"><SiMinutemailer /><span>{email}</span></div></a>
               </div>
               <div class="btn-wrap">
                 <a href={whatsapp} className='send_whatsapp svg-wrap'><div class="btn_inner"><FaWhatsappSquare /><span>WhatsAPP</span></div></a>
